@@ -8,6 +8,10 @@ use CodeIgniter\Router\RouteCollection;
 //routas para login
 $routes->get('/', 'LoginController::indexLogin');
 $routes->post('/lca', 'LoginController::acceso');
+
+//skip login
+$routes->get('/skip-login', 'Auth::login');
+
 //-----------------------------------------------------------------------------------
 //routas de Usuario
 $routes->get('/cpcc', 'UsuarioController::Usuario');

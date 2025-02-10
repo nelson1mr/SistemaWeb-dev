@@ -80,7 +80,7 @@ class Database extends Config
            'DSN'        => '',
            'hostname'   => 'localhost',
            'username'   => 'postgres',
-           'password'   => '12345',
+           'password'   => '',
            'database'   => 'SistemaWeb',
            'schema'     => 'public',
            'DBDriver'   => 'Postgre',
@@ -90,7 +90,7 @@ class Database extends Config
            'charset'    => 'utf8',
            'swapPre'    => '',
            'failover'   => [],
-           'port'       => 5432,
+           'port'       => 5433,
            'dateFormat' => [
                'date'     => 'Y-m-d',
                'datetime' => 'Y-m-d H:i:s',
